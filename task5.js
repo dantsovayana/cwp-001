@@ -31,5 +31,5 @@ let createDir = function (callback) {
     });
     callback();
 }
-
+createDir(() => readAndCopyDirectory(DIR_PATH, prefix));
 
